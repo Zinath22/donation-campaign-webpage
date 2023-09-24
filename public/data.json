@@ -1,0 +1,136 @@
+[
+    {
+      "id": 1,
+      "category_name": "Health",
+      "title": "Clean water for children",
+      "description": "Health refers to the overall state of an individual's physical, mental, and social well-being, in which they are free from illness, injury, or any other physical or mental condition that hinders their ability to function effectively and enjoy a good quality of life.",
+      "price": 290.00,
+      "card_bg": "#0052FF26",
+      "category_name_bg": "#0052FF",
+      "text_color": "#0052FF",
+      "button_bg": "#0052FF"
+      
+    },
+    {
+      "id": 2,
+      "category_name": "Education",
+      "title": "Good education",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.00,
+      "card_bg": "#FF444A26",
+      "category_name_bg": "#FF444A",
+      "text_color": "#FF444A",
+      "button_bg": "#FF444A"
+    },
+    {
+      "id": 3,
+      "category_name": "Clothing",
+      "title": "Used Clothing Drive",
+      "description": "A beautiful vintage table lamp to add charm to your home.",
+      "price": 49.99,
+      "card_bg": "#D35400",
+      "category_name_bg": "#9B59B6",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    },
+    {
+      "id": 4,
+      "category_name": "Books",
+      "title": "Fantasy Novel: The Quest",
+      "description": "An epic fantasy novel filled with adventure and magic.",
+      "price": 14.99,
+      "card_bg": "#3498DB",
+      "category_name_bg": "#F0A202",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    },
+    {
+      "id": 5,
+      "category_name": "Sports Equipment",
+      "title": "Fitness Resistance Bands Set",
+      "description": "A complete set of resistance bands for your workout routine.",
+      "price": 29.99,
+      "card_bg": "#27AE60",
+      "category_name_bg": "#E74C3C",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    },
+    {
+      "id": 6,
+      "category_name": "Sports Equipment",
+      "title": "Fitness Resistance Bands Set",
+      "description": "A complete set of resistance bands for your workout routine.",
+      "price": 29.99,
+      "card_bg": "#27AE60",
+      "category_name_bg": "#E74C3C",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    },
+    {
+      "id": 7,
+      "category_name": "Sports Equipment",
+      "title": "Fitness Resistance Bands Set",
+      "description": "A complete set of resistance bands for your workout routine.",
+      "price": 29.99,
+      "card_bg": "#27AE60",
+      "category_name_bg": "#E74C3C",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    },
+    {
+      "id": 8,
+      "category_name": "Sports Equipment",
+      "title": "Fitness Resistance Bands Set",
+      "description": "A complete set of resistance bands for your workout routine.",
+      "price": 29.99,
+      "card_bg": "#27AE60",
+      "category_name_bg": "#E74C3C",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    },
+    {
+      "id": 9,
+      "category_name": "Sports Equipment",
+      "title": "Fitness Resistance Bands Set",
+      "description": "A complete set of resistance bands for your workout routine.",
+      "price": 29.99,
+      "card_bg": "#27AE60",
+      "category_name_bg": "#E74C3C",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    },
+    {
+      "id": 10,
+      "category_name": "Sports Equipment",
+      "title": "Fitness Resistance Bands Set",
+      "description": "A complete set of resistance bands for your workout routine.",
+      "price": 29.99,
+      "card_bg": "#27AE60",
+      "category_name_bg": "#E74C3C",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    },
+    {
+      "id": 11,
+      "category_name": "Sports Equipment",
+      "title": "Fitness Resistance Bands Set",
+      "description": "A complete set of resistance bands for your workout routine.",
+      "price": 29.99,
+      "card_bg": "#27AE60",
+      "category_name_bg": "#E74C3C",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    },
+    {
+      "id": 12,
+      "category_name": "Sports Equipment",
+      "title": "Fitness Resistance Bands Set",
+      "description": "A complete set of resistance bands for your workout routine.",
+      "price": 29.99,
+      "card_bg": "#27AE60",
+      "category_name_bg": "#E74C3C",
+      "text_color": "#FFFFFF",
+      "button_bg": "#0052FF"
+    }
+    
+  ]
