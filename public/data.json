@@ -8,7 +8,9 @@
       "card_bg": "#0052FF26",
       "category_name_bg": "#0052FF",
       "text_color": "#0052FF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/tZRbRKW/Health.png"
+     
       
     },
     {
@@ -20,7 +22,9 @@
       "card_bg": "#FF444A26",
       "category_name_bg": "#FF444A",
       "text_color": "#FF444A",
-      "button_bg": "#FF444A"
+      "button_bg": "#FF444A",
+      "card_img": "https://i.ibb.co/WNr1dgV/Education.png"
+      
     },
     {
       "id": 3,
@@ -31,106 +35,126 @@
       "card_bg": "#D35400",
       "category_name_bg": "#9B59B6",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/D4p4F5d/Clothing.png"
+      
     },
     {
       "id": 4,
-      "category_name": "Books",
+      "category_name": "Food",
       "title": "Fantasy Novel: The Quest",
       "description": "An epic fantasy novel filled with adventure and magic.",
       "price": 14.99,
       "card_bg": "#3498DB",
       "category_name_bg": "#F0A202",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/KLDtL1T/Food.png"
+     
     },
     {
       "id": 5,
-      "category_name": "Sports Equipment",
+      "category_name": "Food",
       "title": "Fitness Resistance Bands Set",
       "description": "A complete set of resistance bands for your workout routine.",
       "price": 29.99,
       "card_bg": "#27AE60",
       "category_name_bg": "#E74C3C",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/KLDtL1T/Food.png"
+      
     },
     {
       "id": 6,
-      "category_name": "Sports Equipment",
+      "category_name": "Clothing",
       "title": "Fitness Resistance Bands Set",
       "description": "A complete set of resistance bands for your workout routine.",
       "price": 29.99,
       "card_bg": "#27AE60",
       "category_name_bg": "#E74C3C",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/D4p4F5d/Clothing.png"
+     
     },
     {
       "id": 7,
-      "category_name": "Sports Equipment",
+      "category_name": "Education",
       "title": "Fitness Resistance Bands Set",
       "description": "A complete set of resistance bands for your workout routine.",
       "price": 29.99,
       "card_bg": "#27AE60",
       "category_name_bg": "#E74C3C",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/WNr1dgV/Education.png"
+     
     },
     {
       "id": 8,
-      "category_name": "Sports Equipment",
+      "category_name": "Health",
       "title": "Fitness Resistance Bands Set",
       "description": "A complete set of resistance bands for your workout routine.",
       "price": 29.99,
       "card_bg": "#27AE60",
       "category_name_bg": "#E74C3C",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/tZRbRKW/Health.png"
+      
     },
     {
       "id": 9,
-      "category_name": "Sports Equipment",
+      "category_name": "Health",
       "title": "Fitness Resistance Bands Set",
       "description": "A complete set of resistance bands for your workout routine.",
       "price": 29.99,
       "card_bg": "#27AE60",
       "category_name_bg": "#E74C3C",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/tZRbRKW/Health.png"
+      
     },
     {
       "id": 10,
-      "category_name": "Sports Equipment",
+      "category_name": "Education",
       "title": "Fitness Resistance Bands Set",
       "description": "A complete set of resistance bands for your workout routine.",
       "price": 29.99,
       "card_bg": "#27AE60",
       "category_name_bg": "#E74C3C",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/WNr1dgV/Education.png"
+     
     },
     {
       "id": 11,
-      "category_name": "Sports Equipment",
+      "category_name": "Clothing",
       "title": "Fitness Resistance Bands Set",
       "description": "A complete set of resistance bands for your workout routine.",
       "price": 29.99,
       "card_bg": "#27AE60",
       "category_name_bg": "#E74C3C",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/D4p4F5d/Clothing.png"
+      
     },
     {
       "id": 12,
-      "category_name": "Sports Equipment",
+      "category_name": "Food",
       "title": "Fitness Resistance Bands Set",
       "description": "A complete set of resistance bands for your workout routine.",
       "price": 29.99,
       "card_bg": "#27AE60",
       "category_name_bg": "#E74C3C",
       "text_color": "#FFFFFF",
-      "button_bg": "#0052FF"
+      "button_bg": "#0052FF",
+      "card_img": "https://i.ibb.co/KLDtL1T/Food.png"
+      
     }
     
   ]
