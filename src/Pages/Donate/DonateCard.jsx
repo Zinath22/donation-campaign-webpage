@@ -1,18 +1,41 @@
+import swal from "sweetalert";
 
 
 const DonateCard = ({donate}) => {
+
     const {id,category_name,title,description,price,card_bg,category_name_bg,text_color,button_bg,card_img} = donate || {}
 
     const handleAddDonation =()=>{
-        console.log(donate)
-    }
+        const addedDonationArray =[];
+
+        const donationItem = JSON.parse(localStorage.getItem('donation'))
+        
+        if(!donationItem){
+       addedDonationArray.push(donate)
+       localStorage.setItem('donation', JSON.stringify(addedDonationArray))
+       swal("Good job!", "Donation Added", "success");
+        }
+ else{
+    const isExits = donationItem.find(donate=>donate.id === id)
+   if(!isExits){
+    addedDonationArray.push(...donationItem, donate)
+    localStorage.setItem('donation', JSON.stringify(addedDonationArray))
+    swal("Good job!", "Donation Added");
+
+   }
+   else{
+    swal("Opps!", "No duplicate Donation Added");
+   }
+}
+
+     }
 
 
     return (
         <div className="flex justify-center items-center ">
               <div className="relative flex w-[600px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
-    <img className="w-full rounded-xl h-[300px]"
+    <img className="w-full rounded-xl  h-[300px]"
       src={card_img}/>
       <div className=" absolute bottom-0  p-5 bg-black bg-opacity-50 w-full">
         <button 
