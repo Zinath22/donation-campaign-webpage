@@ -22,7 +22,7 @@ const DonationCard = ({donate}) => {
     className="mb-4 w-max px-3 py-2 rounded-md block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
       {category_name}
     </h6>
-    <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+    <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal  antialiased">
       {title}
     </h4>
     <p 
