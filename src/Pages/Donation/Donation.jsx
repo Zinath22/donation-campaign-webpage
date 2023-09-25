@@ -48,9 +48,9 @@ const Donation = () => {
                 }
                </div>
 
-               <button 
+             {donation.length > 4 &&   <button 
                 onClick={()=>setSeeMore(!seeMore)}
-                className="mx-auto text-lg mt-10 bg-green-500  block px-3 rounded-sm py-2 mb-10 text-white ">{seeMore? "See Less" :"See More"}</button>
+                className="mx-auto text-lg mt-10 bg-green-500  block px-3 rounded-sm py-2 mb-10 text-white ">{seeMore? "See Less" :"See More"}</button>}
              </div>
              }
         </div>
