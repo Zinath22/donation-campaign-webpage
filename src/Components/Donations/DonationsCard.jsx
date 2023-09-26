@@ -6,12 +6,12 @@ const DonationsCard = ({donate}) => {
     const {id,category_name,title,card_bg,category_name_bg,text_color,card_img} = donate || {}
     console.log(donate);
     return (
-        <div>
+        <div >
       <Link to={`/donations/${id}`}>
       <div
      
       style={{backgroundColor: card_bg}}
-       className="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+       className=" flex w-[95%] mx-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
   <div className="relative  overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
     <img className="rounded-md w-full"
       src={card_img}

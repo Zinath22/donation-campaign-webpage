@@ -34,7 +34,7 @@ const DonateCard = ({donate}) => {
 
     return (
         <div className="flex justify-center items-center ">
-              <div className="relative flex w-[600px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="mx-auto flex w-[600px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
     <img className="w-full rounded-xl  h-[300px]"
       src={card_img}/>
