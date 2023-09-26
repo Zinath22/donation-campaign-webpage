@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
 
 
 const DonationsCard = ({donate}) => {
-    const {id,category_name,title,description,price,card_bg,category_name_bg,text_color,button_bg,card_img} = donate || {}
+    const {id,category_name,title,card_bg,category_name_bg,text_color,card_img} = donate || {}
     console.log(donate);
     return (
         <div>
@@ -11,8 +12,8 @@ const DonationsCard = ({donate}) => {
      
       style={{backgroundColor: card_bg}}
        className="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-  <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
-    <img className="rounded-md"
+  <div className="relative  overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
+    <img className="rounded-md w-full"
       src={card_img}
       
     />
@@ -40,5 +41,8 @@ const DonationsCard = ({donate}) => {
        
     );
 };
+DonationsCard.propTypes ={
+  donate: PropTypes.array
+}
 
 export default DonationsCard;

@@ -1,9 +1,10 @@
+import PropTypes from 'prop-types'
 import swal from "sweetalert";
 
 
 const DonateCard = ({donate}) => {
 
-    const {id,category_name,title,description,price,card_bg,category_name_bg,text_color,button_bg,card_img} = donate || {}
+    const {id,title,description,price,card_img} = donate || {}
 
     const handleAddDonation =()=>{
         const addedDonationArray =[];
@@ -40,7 +41,7 @@ const DonateCard = ({donate}) => {
       <div className=" absolute bottom-0  p-4 bg-black bg-opacity-50 w-full">
         <button 
         onClick={handleAddDonation}
-        className="w-auto px-3 h-[32px] text-xl  rounded-sm  text-white bg-red-500">
+        className="w-auto px-2 h-[32px] text-xl  rounded-sm  text-white bg-red-500">
             Donate ${price}
             </button>
 
@@ -59,5 +60,8 @@ const DonateCard = ({donate}) => {
         </div>
     );
 };
+DonateCard.propTypes ={
+  donate: PropTypes.array
+}
 
 export default DonateCard;
