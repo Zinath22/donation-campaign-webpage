@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const Banner = ({ input, inputValue, searchName }) => {
     const bgImg = {
@@ -33,10 +33,12 @@ const Banner = ({ input, inputValue, searchName }) => {
       </div>
     );
   };
-  Banner.propTypes={
-    input:PropTypes.array,
-    inputValue:PropTypes.array,
-    searchName:PropTypes.array,
+  Banner.propTypes = {
+    input: PropTypes.string.isRequired,
+    inputValue: PropTypes.func.isRequired,
+    searchName: PropTypes.func.isRequired,
+  
+   
   }
   
   export default Banner;

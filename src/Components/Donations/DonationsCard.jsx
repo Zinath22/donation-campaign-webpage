@@ -42,7 +42,7 @@ const DonationsCard = ({donate}) => {
     );
 };
 DonationsCard.propTypes ={
-  donate: PropTypes.array
+  donate: PropTypes.object
 }
 
 export default DonationsCard;

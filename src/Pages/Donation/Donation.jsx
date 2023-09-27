@@ -1,3 +1,4 @@
+// import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
 
@@ -56,5 +57,8 @@ const Donation = () => {
         </div>
     );
 };
+// Donation.propTypes={
+//     donate: PropTypes.array
+// }
 
 export default Donation;
